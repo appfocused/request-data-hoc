@@ -1,15 +1,15 @@
-# Request Data HOC
+# Request Data HOC 🏹
 
 ## Rationale
 
 Data fetching adds another layer of complexity to your application. Every connected component needs an ability to declaratively request data that is required for further rendering and pass it on as props.
 
-Data needs to be re-requested when it becomes undefined or request params change.
+Data will be re-requested when it becomes undefined or request params change.
 
 ## Benefits
 
 **Good separation of concerns**  
-Your dumb UI components should just render what comes from above and know nothing about how and when to request data. They should not be handling error / loading states either.
+Your presetational UI components should just render what comes from above and know nothing about how and when to request data. They should not be handling error / loading states either.
 
 **Composition is king**  
 Request Data HOC plays nicely with react-router, redux `connect` and selectors. It allows for standalone `withErrors` / `withLoading` components to handle error and loading states.
