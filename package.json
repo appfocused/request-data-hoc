@@ -69,7 +69,7 @@
         "branches": 0,
         "functions": 0,
         "lines": 0,
-        "statements": o
+        "statements": 0
       }
     },
     "collectCoverage": true,
