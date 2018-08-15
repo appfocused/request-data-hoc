@@ -72,7 +72,10 @@
         "statements": 0
       }
     },
-    "collectCoverage": true,
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ],
     "testEnvironment": "node"
   },
   "prettier": {
