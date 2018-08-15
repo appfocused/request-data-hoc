@@ -23,10 +23,8 @@ export const withData = <P extends { [key: string]: any }>(params: WithDataParam
       params.forEach(el => {
         const fetchMethod = this.getFromProps(el.fetchMethod);
         const existingRequest = this.requests && this.requests.get(fetchMethod);
-        console.warn(existingRequest);
       });
       // this.fetchDataIfRequired();
-      console.log('component updated');
     }
 
     // tslint:disable-next-line:ban-types
@@ -77,7 +75,6 @@ export const withData = <P extends { [key: string]: any }>(params: WithDataParam
 
     get isFetching() {
       const requestedProps = params.map(p => this.getFromProps(p.requiredProp));
-      console.log(requestedProps, requestedProps.some(prop => prop === undefined));
       return requestedProps.some(prop => prop === undefined);
     }
 
