@@ -20,3 +20,7 @@ With composed components like `withLoading` you have the ability to not render y
 ## A word of warning
 
 There is a scenario when this HoC is used for widgets that require the same data. Multiple identical data requests will be fired and need to be handled separately in `redux-saga` or other middleware to make it efficient.
+
+### Starter used for this library:
+
+https://github.com/alexjoverm/typescript-library-starter
