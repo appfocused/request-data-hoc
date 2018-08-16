@@ -24,6 +24,7 @@ export const withData = <P extends { [key: string]: any }>(params: WithDataParam
         const fetchMethod = this.getFromProps(el.fetchMethod);
         const existingRequest = this.requests && this.requests.get(fetchMethod);
       });
+      // TODO: investigate fetch on params change
       // this.fetchDataIfRequired();
     }
 
