@@ -1,7 +1,5 @@
-type Fn<P> = (props: P) => any;
-
 export interface WithDataParams<P = any> {
-  requiredProp: keyof P | Fn<P>;
+  requiredProp: any;
   // tslint:disable-next-line:ban-types
   fetchMethod: (...args: any[]) => any;
   fetchMethodParams?: any[];
