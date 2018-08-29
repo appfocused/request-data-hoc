@@ -17,6 +17,20 @@ Request Data HOC plays nicely with react-router, redux `connect` and selectors. 
 **No more null checks**  
 With composed components like `withLoading` you have the ability to not render your dumb UI component until all required data is there. That allows to reduce complexity and avoid all the annoying null checks on the props.
 
+---
+
+## Getting started
+
+`npm install @appfocused/request-data-hoc`  
+or  
+`yarn add @appfocused/request-data-hoc`
+
+## Usage with Redux
+
+[Example on Codesandbox](https://codesandbox.io/s/p7r4vy5xlq)
+
+---
+
 ## A word of warning
 
 There is a scenario when this HoC is used for widgets that require the same data. Multiple identical data requests will be fired and need to be handled separately in `redux-saga` or other middleware to make it efficient.
