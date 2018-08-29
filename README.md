@@ -27,7 +27,7 @@ or
 
 ## Usage with Redux
 
-[Example on Codesandbox](@appfocused/request-data-hoc)
+[Example on Codesandbox](https://codesandbox.io/s/p7r4vy5xlq)
 
 ---
 
