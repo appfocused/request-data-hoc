@@ -1,5 +1,5 @@
 # Request Data HOC 🏹
-_built with ❤️ at www.appfocused.com_
+_built with ❤️ at [Appfocused](https://www.appfocused.com)_
 
 ## Rationale
 
